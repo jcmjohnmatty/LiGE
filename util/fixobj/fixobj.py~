@@ -1,0 +1,18 @@
+# This scripy will take two passes.  Although it will take longer that way, it
+# will also save memory since all of the verticies for a possibly very complex
+# mesh will not need to be stored.
+#
+# read in the mesh, finding the verticies with the minimum z values (these make
+# up th lowest "slice" in the mesh".  If you find a vertex with a z value within
+# a given tolerance of the current minumum(s), then add it to that list.
+#
+# If you find a vertex whose z value is less than those of the current minimum,
+# replace that set with the new vertex and keep on looking.
+#
+# After this, we hae all of the verticies that make up the lowest slice of the
+# mesh.  We then average the x and y coordinates, giving us the center of the
+# lowest slice in the mesh.  This gives us the minimum point that is in the
+# center of te bottom of the mesh.  This completes the first pass.
+#
+# On the second pass, subtract the x,y,z values of the minimum point found above
+# from those of the current vertex being read.

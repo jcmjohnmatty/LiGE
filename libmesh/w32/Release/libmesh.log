@@ -1,0 +1,38 @@
+﻿Build started 2014/6/18 11:27:29.
+     1>Project "C:\Users\linuxJohn\Dropbox\Private\Documents\Code\apps\in_progress\cpp\LiGE\libmesh\w32\libmesh.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libmesh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\mesh.cpp
+         mesh.cpp
+     1>..\mesh.cpp(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\mesh.cpp(67): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>..\mesh.cpp(92): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\mesh.cpp(103): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\mesh.cpp(114): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\mesh.cpp(132): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>..\mesh.cpp(153): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : see declaration of 'strtok'
+     1>..\mesh.cpp(165): warning C4101: 'i' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\linuxJohn\Dropbox\Private\Documents\Code\apps\in_progress\cpp\LiGE\w32\Release\libmesh.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\libmesh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\linuxJohn\Dropbox\Private\Documents\Code\apps\in_progress\cpp\LiGE\w32\Release\libmesh.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\linuxJohn\Dropbox\Private\Documents\Code\apps\in_progress\cpp\LiGE\w32\Release\libmesh.lib" /MACHINE:X86 Release\mesh.obj
+         Release\test.obj
+         Generating code
+         Finished generating code
+         libmesh.vcxproj -> C:\Users\linuxJohn\Dropbox\Private\Documents\Code\apps\in_progress\cpp\LiGE\w32\Release\libmesh.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\linuxJohn\Dropbox\Private\Documents\Code\apps\in_progress\cpp\LiGE\w32\Release\libmesh.exe;#1" /manifest Release\libmesh.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\libmesh.unsuccessfulbuild".
+         Touching "Release\libmesh.lastbuildstate".
+     1>Done Building Project "C:\Users\linuxJohn\Dropbox\Private\Documents\Code\apps\in_progress\cpp\LiGE\libmesh\w32\libmesh.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.54

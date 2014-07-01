@@ -1,0 +1,26 @@
+Am I actually using glut?
+  This might be good because then I am able to use their functions to
+   create frames, ..., as well as already having high quality code.
+  In this case, do I want to write any sort of wrapper?
+    If time permits, yes.
+
+I need to have it set up so that there is a manager for the current
+   app, that way I am able to set global properties.
+  Propably do this whether or not I use glut.
+    If I do use glut, combine this in my wrapper.
+
+Maybe do everything percent wise in the beginning, then transfer over
+   to layouts managing the percents.
+  I think that this is the best way.
+
+I need to go through and do a convention for variable naming.
+
+NOTE:  things in core/ are to be used for performing actual
+   simulations as well as in all 3d subprojects.  Therefore, I needed
+   to create seperate utility classes for the interface library
+   (because the interface is 2d).
+
+I need to change everything to be in li::ui, since this is the UI
+   library.
+
+Check about moving corner points up to base class?
